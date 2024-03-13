@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hsecondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+h1.hlogo {
+  color: #F9FAF8;
+
+}
+
+h1.hmain {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+header, footer, .hero {
+  background-color: #1F2937;
+}
+
+footer p {
+  color: #F9FAF8;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+.randimage {
+  height: 100px;
+  width: 100px;
+  border: 5px solid #3882F6;
+  border-radius: 25px;
+}
+
+.qsection {
+  background-color: #E5E7EB;
+}
+
+.qsection .quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.qsection .qauthor {
+  color: #1F2937;
+  font-weight: bold;
+}
+
+.asection {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.signupa, .signupb {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 3px 5px;
+  width: fit-content;
+}
+
+.signupa {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-color: #3882F6;
+}
