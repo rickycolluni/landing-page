@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,22 +11,89 @@
 
 h1.hlogo {
   color: #F9FAF8;
-
 }
 
 h1.hmain {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 800;
   color: #F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 0 5px;
 }
 
 a {
   font-size: 18px;
   color: #E5E7EB;
+  text-decoration: none;
 }
 
-header, footer, .hero {
+header, footer, .herobackground {
   background-color: #1F2937;
+}
+
+.headersection, .herosection, .infosection, .qsection, .asection {
+  margin: 0 10%;
+}
+
+.headersection {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.herosection {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.herocontent {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgholder {
+  background-color: grey;
+  height: 300px;
+  width: 400px;
+}
+
+.infosection {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.infocontent {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.randinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 24%;
 }
 
 footer p {
@@ -36,19 +102,23 @@ footer p {
 
 h2 {
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: 800;
   color: #1F2937;
 }
 
 .randimage {
-  height: 100px;
-  width: 100px;
+  aspect-ratio: 1/1;
+  width: 150px;
   border: 5px solid #3882F6;
   border-radius: 25px;
 }
 
-.qsection {
+.qbackground {
   background-color: #E5E7EB;
+}
+
+.qsection {
+  padding: 100px 100px;
 }
 
 .qsection .quote {
@@ -56,11 +126,14 @@ h2 {
   font-weight: light;
   font-style: italic;
   color: #1F2937;
+  text-align: justify;
 }
 
 .qsection .qauthor {
   color: #1F2937;
   font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
 }
 
 .asection {
@@ -68,10 +141,23 @@ h2 {
   color: #F9FAF8;
 }
 
+.asection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.asection .abold {
+  font-weight: bold;
+}
+
 .signupa, .signupb {
   border-radius: 10px;
   border: 2px solid;
-  padding: 3px 5px;
+  padding: 5px 30px;
   width: fit-content;
 }
 
@@ -79,4 +165,10 @@ h2 {
   color: #F9FAF8;
   background-color: #3882F6;
   border-color: #3882F6;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
